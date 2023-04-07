@@ -28,7 +28,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Clone target repository
-      run: github clone https://github.com/searchbox-io/Jest && cd Jest
+      run: git clone https://github.com/searchbox-io/Jest && cd Jest
     
     - name: Print the latest commit
       run: git rev-parse HEAD
