@@ -24,7 +24,6 @@ jobs:
       uses: actions/checkout@v2
       with:
         repository: searchbox-io/Jest
-        ref: main         
     - name: Set up JDK 17
       uses: actions/setup-java@v3
       with:
